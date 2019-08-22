@@ -13,8 +13,6 @@ The following is all from my thesis. If you want to know the details, you can co
   paer:Revisiting small batch training for deep neural networks
 5、ELU, ReLU, CReLU
 
-
-
 2) Models
 model 1 ->  CSN 
  The channels after each downsampling operations are 64, 96, 128, 192. In the first convolution layer, the channels are set to 64.

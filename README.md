@@ -34,6 +34,6 @@ model 9_4 ->CSN-Fastest
 
 3)Results
 
-  The best 
+  The best result is model9_4
 ![image](https://github.com/williamlee91/fast-face-reg/blob/master/tensorflow_reg/images/results.png)
 

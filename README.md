@@ -3,9 +3,10 @@
 some better performance models were uploaded 
 I advise you to retrain these models, because some details of these models were improved.
 
-The following is all from my thesis. If you want to know the details, you can contact me.
+The following is all from my paper(fast face recognition model design without pruning). If you want to know the details, you can contact me.
 
 1) Details
+
 1、channels split fire module（CSF）
 2、channels split fire module with seperable convolution(CSFS)
 3、downsampling depth_wise convolution (DDWConv)
@@ -14,6 +15,7 @@ The following is all from my thesis. If you want to know the details, you can co
 5、ELU, ReLU, CReLU
 
 2) Models
+
 model 1 ->  CSN 
  The channels after each downsampling operations are 64, 96, 128, 192. In the first convolution layer, the channels are set to 64.
 
@@ -27,5 +29,6 @@ model 9_4 ->CSN-Fastest
   In order to observe cost of time, we set the profiler in FPS testing. I found that the shallower the layer, the more time-consuming it is. So i set CReLu in shallow layers, and modify the number of channels in shallow and middle layers.
 
 3)Results
+  The best 
 
 
